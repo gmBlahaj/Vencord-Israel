@@ -1,0 +1,47 @@
+/**
+ * @name Bibi Theme
+ * @description God Bless Netanyahu
+ */
+
+
+:root, body, #app-mount {
+    background: url("https://cdn.discordapp.com/attachments/1276298061316100217/1491189509600055407/image.psd.png?ex=69d6c9f4&is=69d57874&hm=d9cbf19b50638ee73be34a5732bfeb62098734b851636820dfd02f6edfeb9440&") center/cover no-repeat fixed !important;
+}
+
+
+.theme-dark, .theme-light {
+    --bg-overlay-chat: transparent !important;
+    --bg-overlay-app-frame: transparent !important;
+}
+
+
+[class^="app_"], 
+[class^="bg_"],
+[class^="layers_"],
+[class^="layer_"],
+[class^="container_"],
+[class^="guilds_"],           s
+[class^="sidebar_"],          
+[class^="privateChannels_"],    
+nav,                           
+.theme-dark, 
+.theme-light {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+
+[class^="sidebar_"],
+[class^="chat_"],
+[class^="chatContent_"],
+[class^="members_"],
+[class^="panels_"],
+[class^="userPanelInner_"] {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+
+[class^="channelTextArea_"] {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
